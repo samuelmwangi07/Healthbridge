@@ -204,3 +204,7 @@ def transactions_list(request):
     return render(request, 'transactions.html', {'transactions': transactions})
 
 
+def register(request):
+    return render(request, 'register.html')
+def login(request):
+    return render(request, 'login.html')
